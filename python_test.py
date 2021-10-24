@@ -7,13 +7,9 @@ ar.sort()
 print(ar)
 def index(a,p):
     for y in range(len(a)):
-        # if(a[y]==p):
-        #     print("index: ",y)
         if(a[y]>p):
-            # a.insert(y,p)
             print("index: ",y)
             break
-    # print(a)
 index(ar,ps)
 
 
